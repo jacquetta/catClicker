@@ -1,0 +1,10 @@
+header{
+  color: orange;
+  text-align: center;
+}
+
+#cat-one, #cat-two{
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
