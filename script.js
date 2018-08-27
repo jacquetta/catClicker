@@ -8,22 +8,3 @@ function clickCounter(){
 
 total++;
 }
-
-
-
-// catPic.addEventListener("click", function(){
-
-
-
-
-
-
-
-//   if(catPic === "click"){
-//     document.getElementById("numPics").innerHTML = "Total number of clicks" + total;
-//   }
-//
-//   total++
-//
-//   return;
-// });
