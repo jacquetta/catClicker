@@ -3,15 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Cat Clicker</title>
   </head>
   <body>
-    <h1>CLICK ME!</h1>
+    <header>
+      <h1>CLICK A CAT!</h1>
+    </header>
+    <div class="w3-row w3-mobile">
+      <div id="one" class="w3-half w3-container">
+        <div id="cat-one"></div>
+        <img id="cat-pic" src="catMeow.jpg" alt="cute cat" width="320">
+        <h2 class="clicks">Total Number of Clicks: <span id="num"></span></h2>
+      </div><!--div one -->
 
-    <img id="cat-pic" src="catMeow.jpg" alt="cute cat" width="350">
-
-    <h2 id="clicks">Total Number of Clicks: <span id="num"></span></h2>
-
+      <div id="two" class="w3-half w3-container">
+        <div id="cat-two"></div>
+        <img id="cat-second" src="cat_purr.jpg" alt="cute black cat" width="320" height="325">
+        <h2 class="clicks">Total Number of Clicks: <span id="number"></span></h2>
+      </div><!-- div two-->
+    </div><!--w3-row-->
     <script src="script.js"></script>
   </body>
 </html>
